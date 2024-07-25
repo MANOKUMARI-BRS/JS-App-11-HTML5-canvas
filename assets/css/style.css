@@ -15,6 +15,7 @@ body {
     margin: 0;
     padding: 0;
 }
+
 .btn {
     width: 130px;
     height: 40px;
@@ -51,6 +52,7 @@ body {
   header {
     background: linear-gradient(to right, rgb(95, 152, 231), rgb(67, 187, 187));
   }
+
 
 h1 {
     color: var(--primary-color);

@@ -53,6 +53,7 @@ canvas.addEventListener("mousedown", (e) => {
 
 canvas.addEventListener("mousemove", draw);
 canvas.addEventListener("mouseup", () => (isDrawing = false));
+
 canvas.addEventListener("mouseout", ()=> (isDrawing = false));
 
 // Add event listener for the Clear Canvas button
@@ -76,6 +77,9 @@ function erase(e) {
     eraseSize
   );
 }
+
+canvas.addEventListener("mouseout", () => (isDrawing = false));
+
 
 // Set theme
 function setTheme(theme) {
